@@ -23,6 +23,7 @@
   <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="./jquery.flipster.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
 
 
@@ -35,7 +36,7 @@
   <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll" href="#page-top"></a>
-
+      <img src="img/ernesto4.png" class="img-fluid rounded b-shadow-a" alt="">
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
         aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span></span>
@@ -82,13 +83,32 @@
       <div class="table-cell">
         <div class="container">
           <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <span><img src="img/ernesto2.png" alt="" class="titleclient"></i></span>
-          <p class="intro-subtitle"><span class="text-slider-items">Your Home Remodeling Contractor</span><strong
-              class="text-slider"></strong></p>
+          <!--<span><img src="img/ernesto3.png" alt="" class="titleclient"></span>-->
+          <div id="PortalGate" class="hero2">
+
+            <div class="carousel my-flipster">
+              <ul>
+                <li>
+                  <img src="./img/ernesto3.png" alt="Logo1">
+                </li>
+                <li>
+                  <img src="./img/ernesto3-b.png" alt="Logo2">
+                </li>
+                <li>
+                  <img src="./img/ernesto3-c.png" alt="Logo3">
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!--<p class="intro-subtitle"><span class="text-slider-items">Your Home Remodeling Contractor</span><strong
+              class="text-slider"></strong></p>-->
         </div>
       </div>
     </div>
   </div>
+
+  
+
   <!--/ quienes /-->
   <section id="about" class="about-mf sect-pt4 route">
     <div class="container">
@@ -151,7 +171,7 @@
         <div class="col-md-4">
           <div class="service-box">
             <div class="service-ico">
-              <span class="ico-circle"><img src="icons/kitchen.svg" alt="" class="ico-cuadrado"></i></span>
+              <span class="ico-circle"><a href="#services-details"><img src="icons/kitchen.svg" alt="" class="ico-cuadrado"></a></span>
             </div>
             <div class="service-content">
               <h2 class="s-title">Kitchen Remodeling</h2>
@@ -165,7 +185,7 @@
           <div class="service-box">
             <div class="service-ico">
               <!--<i class="ion-paintbrush">h-->
-              <span class="ico-circle"><img src="icons/bath.svg" alt="" class="ico-cuadrado"></i></span>
+              <span class="ico-circle"><a href="#services-details"><img src="icons/bath.svg" alt="" class="ico-cuadrado"></a></span>
             </div>
             <div class="service-content">
               <h2 class="s-title">Bathroom Remodeling</h2>
@@ -178,7 +198,7 @@
         <div class="col-md-4">
           <div class="service-box">
             <div class="service-ico">
-              <span class="ico-circle"><img src="icons/basement.svg" alt="" class="ico-cuadrado"></i></span>
+              <span class="ico-circle"><a href="#services-details"><img src="icons/basement.svg" alt="" class="ico-cuadrado"></a></span>
             </div>
             <div class="service-content">
               <h2 class="s-title">Basement Finishing</h2>
@@ -191,7 +211,7 @@
         <div class="col-md-4">
           <div class="service-box">
             <div class="service-ico">
-              <span class="ico-circle"><img src="icons/mud.svg" alt="" class="ico-cuadrado"></i></span>
+              <span class="ico-circle"><a href="#services-details"><img src="icons/mud.svg" alt="" class="ico-cuadrado"></a></span>
 
             </div>
             <div class="service-content">
@@ -205,7 +225,7 @@
         <div class="col-md-4">
           <div class="service-box">
             <div class="service-ico">
-              <span class="ico-circle"><img src="icons/floor.svg" alt="" class="ico-cuadrado"></i></span>
+              <span class="ico-circle"><a href="#services-details"><img src="icons/floor.svg" alt="" class="ico-cuadrado"></a></span>
             </div>
             <div class="service-content">
               <h2 class="s-title">1st Floor Renovations </h2>
@@ -219,7 +239,7 @@
         <div class="col-md-4">
           <div class="service-box">
             <div class="service-ico">
-              <span class="ico-circle"><img src="icons/attic.svg" alt="" class="ico-cuadrado"></i></span>
+              <span class="ico-circle"><a href="#services-details"><img src="icons/attic.svg" alt="" class="ico-cuadrado"></a></span>
             </div>
 
             <div class="service-content">
@@ -233,7 +253,7 @@
         <div class="col-md-4">
           <div class="service-box">
             <div class="service-ico">
-              <span class="ico-circle"><img src="icons/add.svg" alt="" class="ico-cuadrado"></i></span>
+              <span class="ico-circle"><a href="#services-details"><img src="icons/add.svg" alt="" class="ico-cuadrado"></a></span>
             </div>
             <div class="service-content">
               <h2 class="s-title">Room Additions</h2>
@@ -246,7 +266,7 @@
         <div class="col-md-4">
           <div class="service-box">
             <div class="service-ico">
-              <span class="ico-circle"><img src="icons/whole.svg" alt="" class="ico-cuadrado"></i></span>
+              <span class="ico-circle"><a href="#services-details"><img src="icons/whole.svg" alt="" class="ico-cuadrado"></a></span>
             </div>
             <div class="service-content">
               <h2 class="s-title">Whole Home Remodeling</h2>
@@ -259,7 +279,7 @@
         <div class="col-md-4">
           <div class="service-box">
             <div class="service-ico">
-              <span class="ico-circle"><img src="icons/electric.svg" alt="" class="ico-cuadrado"></i></span>
+              <span class="ico-circle"><a href="#services-details"><img src="icons/electric.svg" alt="" class="ico-cuadrado"></a></span>
             </div>
             <div class="service-content">
               <h2 class="s-title">Electrical Remodeling</h2>
@@ -334,7 +354,7 @@
         </div>
       </div>
       <div class="row" style="justify-content:center">
-        <div class="col-md-2">
+        <div class="col-md-3">
           <div class="service-box">
             <div class="service-ico">
               <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/AdanHistory/" target="_blank" class="ico-circle"><img src="icons/facebook.svg" alt="" class="ico-cuadrado"></a>
@@ -344,18 +364,17 @@
             </div>
           </div>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-3">
           <div class="service-box">
             <div class="service-ico">
-              <!--<i class="ion-paintbrush">h-->
-                <a href="https://msng.link/o/?Adanhistory=ig" target="_blank" class="ico-circle"><img src="icons/instagram.svg" alt="" class="ico-cuadrado"></a>
+              <a href="https://msng.link/o/?Adanhistory=ig" target="_blank" class="ico-circle"><img src="icons/instagram.svg" alt="" class="ico-cuadrado"></a>
             </div>
             <div class="service-content">
               <h2 class="s-title">INSTAGRAM</h2>
             </div>
           </div>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-3">
           <div class="service-box">
             <div class="service-ico">
               <a href="http://api.whatsapp.com/send?phone=593968355233&text=Bienvenido%20a%20Adanhistory%20¿En%20qué%20podemos%20servirle?" target="_blank" class="ico-circle"><img src="icons/whatsapp.svg" alt="" class="ico-cuadrado"></a>
@@ -365,7 +384,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-3">
           <div class="service-box">
             <div class="service-ico">
               <a href="http://m.me/AdanHistory" target="_blank" class="ico-circle"><img src="icons/mensajero.svg" alt="" class="ico-cuadrado"></a>
@@ -375,7 +394,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-3">
           <div class="service-box">
             <div class="service-ico">
               <a href="http://m.me/AdanHistory" target="_blank" class="ico-circle"><img src="icons/youtube.svg" alt="" class="ico-cuadrado"></a>
@@ -444,6 +463,9 @@
       
     });
   </script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
   <script src="lib/popper/popper.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.min.js"></script>
   <script src="lib/easing/easing.min.js"></script>
@@ -456,6 +478,11 @@
   <script src="js/main.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script>
+    var myCarousel = document.querySelector('#PortalGate')
+    var carousel = new bootstrap.Carousel(myCarousel)
+
+  </script>
 
 <!--End FRAMEWORKS-->  
 </body>
